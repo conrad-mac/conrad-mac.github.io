@@ -6,3 +6,4 @@ Home page
 - Add pre-code to code playgrounds
 - Write descriptions for employment history
 - Add projects section (uncomment)
+- Add published papers section
