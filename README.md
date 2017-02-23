@@ -8,4 +8,4 @@ Home page
 - Write descriptions for employment history
 - Add projects section (uncomment)
 - Add published papers section
-- Add 'contact me' section
+- Add 'contact me' section (use [google forms](https://docs.google.com/forms/))
