@@ -10,10 +10,12 @@
   <meta name="author" content="Conrad MacCormick">
   <link rel="shortcut icon" href="favicon.ico">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet">
   <!-- Global CSS -->
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
   <!-- Plugins CSS -->
-  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Load DataCamp Light JS-->
   <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
@@ -54,7 +56,7 @@
       <div class="education-container container-block">
         <h2 class="container-block-title">Education</h2>
         <div class="item">
-          <h4 class="degree">BSc in Geography</h4>
+          <h4 class="degree"> <i class="fa fa-graduation-cap"></i> BSc in Geography</h4>
           <h5 class="meta">Victoria University of Wellington</h5>
           <div class="time">2007-2010</div>
         </div><!--//item-->
@@ -71,14 +73,11 @@
       <div class="interests-container container-block">
         <h2 class="container-block-title">Interests</h2>
         <ul class="list-unstyled interests-list">
-          <li>Playing guitar
-            <!-- <i class="fa fa-music"></i> -->
-          </li>
-          <li>Reading
-            <!-- <i class="fa fa-book"></i> -->
-          </li>
-          <li>Snowboarding</li>
-          <li>Programming</li>
+          <li><i class="fa fa-music"></i> Playing guitar (and bass)</li>
+          <li><i class="fa fa-book"></i> Reading</li>
+          <li><i class="fa fa-snowflake-o"></i> Snowboarding</li>
+          <li><i class="fa fa-terminal"></i> Programming</li>
+          <li><i class="fa fa-bar-chart"></i> Making data visualisations</li>
         </ul>
       </div><!--//interests-->
 
@@ -101,8 +100,8 @@
 
           <p>
             I have worked as an analyst at Statistics New Zealand and the Ministry of Social Development and am currently on secondment
-            to the Social Investment Unit (formerly the Social Sector Investment Change Program) as a Senior Analyst working daily
-            with Statsistics New Zealand's Integrated Data Infrastructure (IDI).
+            to the Social Investment Unit (formerly the Social Sector Investment Change Program) as a Senior Analyst. I am part of
+            a team that works daily with Statsistics New Zealand's Integrated Data Infrastructure (IDI).
           </p>
         </div><!--//summary-->
       </section><!--//section-->
@@ -225,6 +224,15 @@
       <section class="skills-section section">
         <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
         <div class="skillset">
+
+          <!-- <div class="item">
+            <h3 class="level-title">Time management and work ethic</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="95%">
+              </div>
+            </div>
+          </div> -->
+
           <div class="item">
             <h3 class="level-title">R &amp; Shiny</h3>
             <div class="level-bar">
@@ -242,9 +250,9 @@
           </div><!--//item-->
 
           <div class="item">
-            <h3 class="level-title">Python</h3>
+            <h3 class="level-title">Statistical Analysis and Reasoning</h3>
             <div class="level-bar">
-              <div class="level-bar-inner" data-level="60%">
+              <div class="level-bar-inner" data-level="80%">
               </div>
             </div><!--//level-bar-->
           </div><!--//item-->
@@ -253,6 +261,14 @@
             <h3 class="level-title">Javascript &amp; HTML</h3>
             <div class="level-bar">
               <div class="level-bar-inner" data-level="60%">
+              </div>
+            </div><!--//level-bar-->
+          </div><!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Python</h3>
+            <div class="level-bar">
+              <div class="level-bar-inner" data-level="50%">
               </div>
             </div><!--//level-bar-->
           </div><!--//item-->
@@ -279,6 +295,7 @@
             # This will get executed each time the exercise gets initialized
           </code>
           <code data-type="sample-code">
+            # Have a go!
             library(ggplot2)
 
             ggplot(mpg, aes(class, cty)) +
