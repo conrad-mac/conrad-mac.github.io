@@ -3,7 +3,7 @@ Home page
 
 ## Still to do
 
-- Add pre-code to code playgrounds (remove Python playground)?
+- Add pre-code to code playgrounds?
 - Work out why playgrounds aren't working on IE?
 - Write descriptions for employment history
 - Add projects section (uncomment)

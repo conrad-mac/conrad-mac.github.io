@@ -279,6 +279,11 @@
             # This will get executed each time the exercise gets initialized
           </code>
           <code data-type="sample-code">
+            library(ggplot2)
+
+            ggplot(mpg, aes(class, cty)) +
+                geom_bar(stat = "identity") +
+                facet_grid(year ~ .)
           </code>
           <code data-type="solution">
 
@@ -289,7 +294,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <!-- <section class="section">
         <h2 class="section-title"><i class="fa fa-laptop"></i>Python Playground</h2>
         <div data-datacamp-exercise data-lang="python">
           <code data-type="pre-exercise-code">
@@ -303,7 +308,7 @@
           </code>
           <div data-type="hint"></div>
         </div>
-      </section>
+      </section> -->
 
     </div><!--//main-body-->
   </div>
