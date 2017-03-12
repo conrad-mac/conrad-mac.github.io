@@ -3,9 +3,8 @@ Home page
 
 ## Still to do
 
-- Add pre-code to code playgrounds?
+- Add different pre-code to code playground?
 - Work out why playgrounds aren't working on IE?
-- Write descriptions for employment history
-- Add projects section (uncomment)
+- Add projects section (and uncomment)
 - Add published papers section
 - Add 'contact me' section (use [google forms](https://docs.google.com/forms/))
