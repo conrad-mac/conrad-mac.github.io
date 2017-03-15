@@ -40,8 +40,7 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
-p {  
-  font-family: 'Roboto', sans-serif;
+p {
   line-height: 1.5;
   /*text-align: justify;*/
 }
@@ -325,7 +324,7 @@ p {
           transition: all 0.5s ease;
 }
 
-.morph:hover {
+.morph:active {
   /*border-radius: 50%;*/
   -webkit-transform: rotate(360deg);
      -moz-transform: rotate(360deg);
