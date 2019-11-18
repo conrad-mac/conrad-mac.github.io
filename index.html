@@ -36,7 +36,8 @@
     <div class="sidebar-wrapper">
       <div class="profile-container">
         <!--img class="profile" src="assets/images/profile.png" alt="" /-->
-        <img class="profile img-circle morph" src="assets/images/profile.jpg" alt="" />
+        <!-- <img class="profile img-circle morph" src="assets/images/profile.jpg" alt="" /> -->
+        <img id="my-img" class="profile img-circle morph" src="assets/images/profile.jpg" onmouseover="hover(this);" onmouseout="unhover(this);" />
         <h1 class="name">Conrad MacCormick</h1>
         <!-- <h3 class="tagline">Senior Data Scientist</h3> -->
         <!-- <span style="display: inline;"> > </span> -->
@@ -450,6 +451,18 @@
               typeSpeed: 130
           });
       });
+  </script>
+
+  <script>
+
+    function hover(element) {
+    element.setAttribute('src', "assets/images/profile_pixel.png");
+    }
+
+    function unhover(element) {
+    element.setAttribute('src', "assets/images/profile3.png");
+    }
+
   </script>
 </body>
 </html>
