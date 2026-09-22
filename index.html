@@ -4,39 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Conrad MacCormick">
-  <meta name="description" content="Conrad MacCormick - Principal Data Scientist with 13+ years experience in data science, statistical analysis, and IDI research. Expert in R, SAS, and project leadership at Nicholson Consulting, Wellington, New Zealand.">
-  <meta name="keywords" content="Data Scientist, Principal Data Scientist, IDI Research, R Programming, SAS, Statistical Analysis, Data Analytics, Wellington, New Zealand, Nicholson Consulting, Conrad MacCormick, Integrated Data Infrastructure">
+  <meta name="description" content="Conrad MacCormick — Principal Data Scientist in Wellington, NZ. Applied ML, statistical modelling, R, Python, SQL, Snowflake, geospatial data products and full-stack analytics apps.">
+  <meta name="keywords" content="Data Scientist, Principal Data Scientist, Machine Learning, Statistical Modelling, R, Python, SQL, Shiny, Snowflake, Snowpark, Databricks, Geospatial, sf, leaflet, FastAPI, Next.js, Data Engineering, Analytics, Wellington, New Zealand, Conrad MacCormick, Nicholson Consulting">
   <title>Conrad MacCormick | Principal Data Scientist | Wellington, NZ</title>
-  
-  <!-- Canonical URL -->
+
   <link rel="canonical" href="https://conrad-mac.github.io/">
-  
-  <!-- Open Graph / Facebook -->
+
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://conrad-mac.github.io/">
   <meta property="og:title" content="Conrad MacCormick | Principal Data Scientist">
-  <meta property="og:description" content="Principal Data Scientist with 13+ years experience in data science, statistical analysis, and IDI research. Expert in R, SAS, and project leadership.">
+  <meta property="og:description" content="Principal Data Scientist in Wellington, NZ. Applied ML, statistical modelling, R, Python, Snowflake and data product delivery.">
   <meta property="og:image" content="https://conrad-mac.github.io/assets/images/profile3.png">
-  
-  <!-- Twitter -->
+
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://conrad-mac.github.io/">
   <meta property="twitter:title" content="Conrad MacCormick | Principal Data Scientist">
-  <meta property="twitter:description" content="Principal Data Scientist with 13+ years experience in data science, statistical analysis, and IDI research. Expert in R, SAS, and project leadership.">
+  <meta property="twitter:description" content="Principal Data Scientist in Wellington, NZ. Applied ML, statistical modelling, R, Python, Snowflake and data product delivery.">
   <meta property="twitter:image" content="https://conrad-mac.github.io/assets/images/profile3.png">
-  
-  <!-- Fonts -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- DataCamp Light -->
   <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
-  
-  <!-- Structured Data -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -65,665 +56,149 @@
       "@type": "CollegeOrUniversity",
       "name": "Victoria University of Wellington"
     },
-    "knowsAbout": ["Data Science", "Statistical Analysis", "R Programming", "SAS", "IDI Research", "Project Management", "SQL", "Shiny"],
-    "description": "Principal Data Scientist with over 13 years experience in data science and statistical roles, specialising in Integrated Data Infrastructure research and analytics."
+    "knowsAbout": ["Data Science", "Machine Learning", "Statistical Modelling", "R", "Python", "SQL", "Shiny", "Snowflake", "Snowpark", "Databricks", "Geospatial Analysis", "FastAPI", "Next.js", "Data Engineering", "Data Products"],
+    "description": "Principal Data Scientist with 15 years of experience in applied ML, statistical modelling, geospatial analysis and data product delivery. Based in Wellington, New Zealand."
   }
   </script>
-  
+
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --primary: #2563eb;
-      --primary-dark: #1e40af;
-      --accent: #06b6d4;
-      --text-primary: #1e293b;
-      --text-secondary: #64748b;
-      --bg-primary: #ffffff;
-      --bg-secondary: #f8fafc;
-      --bg-tertiary: #f1f5f9;
-      --border: #e2e8f0;
-      --gradient: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
-    }
-    
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      color: var(--text-primary);
-      line-height: 1.6;
-      background: var(--bg-primary);
-      -webkit-font-smoothing: antialiased;
-    }
-    
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-    
-    /* Hero Section */
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--gradient);
-      color: white;
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h60v60H0z" fill="none"/><path d="M30 0v60M0 30h60" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>');
-      opacity: 0.3;
-    }
-    
-    .hero-content {
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
-    
-    .profile-image-wrapper {
-      width: 180px;
-      height: 180px;
-      margin: 0 auto 32px;
-      position: relative;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 4px solid rgba(255, 255, 255, 0.2);
-      transition: transform 0.3s ease, border-color 0.3s ease;
-    }
-    
-    .profile-image-wrapper:hover {
-      transform: scale(1.05);
-      border-color: rgba(255, 255, 255, 0.4);
-    }
-    
-    .profile-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: filter 0.3s ease;
-    }
-    
-    .profile-image-wrapper:hover .profile-image {
-      filter: brightness(1.1);
-    }
-    
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-bottom: 16px;
-      letter-spacing: -0.02em;
-    }
-    
-    .hero-tagline {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-bottom: 32px;
-      opacity: 0.95;
-    }
-    
-    .typed-cursor {
-      opacity: 1;
-      animation: blink 0.7s infinite;
-    }
-    
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    
-    .contact-links {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      margin-top: 32px;
-    }
-    
-    .contact-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.25rem;
-      transition: transform 0.2s ease, opacity 0.2s ease;
-    }
-    
-    .contact-links a:hover {
-      transform: translateY(-3px);
-      opacity: 0.8;
-    }
-    
-    .scroll-indicator {
-      position: absolute;
-      bottom: 40px;
-      left: 50%;
-      transform: translateX(-50%);
-      animation: bounce 2s infinite;
-    }
-    
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-      40% { transform: translateX(-50%) translateY(-10px); }
-      60% { transform: translateX(-50%) translateY(-5px); }
-    }
-    
-    /* Section Styles */
-    section {
-      padding: 80px 0;
-    }
-    
-    section:nth-child(even) {
-      background: var(--bg-secondary);
-    }
-    
-    .section-header {
-      margin-bottom: 48px;
-    }
-    
-    .section-title {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    
-    .section-title i {
-      background: var(--gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    
-    .section-subtitle {
-      color: var(--text-secondary);
-      font-size: 1.125rem;
-    }
-    
-    /* About Section */
-    .about-content p {
-      margin-bottom: 20px;
-      font-size: 1.0625rem;
-      color: var(--text-primary);
-    }
-    
-    .about-content p:last-child {
-      margin-bottom: 0;
-    }
-    
-    .quick-facts {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 24px;
-      margin-top: 40px;
-    }
-    
-    .fact-card {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    
-    .fact-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
-    }
-    
-    .fact-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      background: var(--gradient);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 12px;
-      color: white;
-    }
-    
-    .fact-label {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 4px;
-    }
-    
-    .fact-value {
-      font-size: 1.25rem;
-      font-weight: 600;
-      color: var(--text-primary);
-    }
-    
-    /* Timeline */
-    .timeline {
-      position: relative;
-      padding-left: 32px;
-    }
-    
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 8px;
-      bottom: 8px;
-      width: 2px;
-      background: var(--gradient);
-    }
-    
-    .timeline-item {
-      position: relative;
-      margin-bottom: 40px;
-    }
-    
-    .timeline-item:last-child {
-      margin-bottom: 0;
-    }
-    
-    .timeline-marker {
-      position: absolute;
-      left: -38px;
-      top: 8px;
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      background: white;
-      border: 3px solid var(--primary);
-    }
-    
-    .timeline-content {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      transition: box-shadow 0.2s ease;
-    }
-    
-    .timeline-content:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
-    }
-    
-    .timeline-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 12px;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    
-    .job-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      color: var(--text-primary);
-    }
-    
-    .job-period {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-      white-space: nowrap;
-    }
-    
-    .company {
-      font-size: 1rem;
-      color: var(--accent);
-      font-weight: 500;
-      margin-bottom: 12px;
-    }
-    
-    .job-description {
-      color: var(--text-primary);
-      line-height: 1.6;
-    }
-    
-    /* Skills Grid */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    
-    .skill-item {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-    }
-    
-    .skill-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-    
-    .skill-name {
-      font-weight: 600;
-      color: var(--text-primary);
-      font-size: 1rem;
-    }
-    
-    .skill-level {
-      font-size: 0.875rem;
-      color: var(--text-secondary);
-    }
-    
-    .skill-bar {
-      height: 6px;
-      background: var(--bg-tertiary);
-      border-radius: 3px;
-      overflow: hidden;
-    }
-    
-    .skill-bar-fill {
-      height: 100%;
-      background: var(--gradient);
-      border-radius: 3px;
-      transition: width 1s ease;
-    }
-    
-    /* Publications */
-    .publication {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      margin-bottom: 20px;
-      transition: box-shadow 0.2s ease;
-    }
-    
-    .publication:hover {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
-    }
-    
-    .publication:last-child {
-      margin-bottom: 0;
-    }
-    
-    .publication a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 500;
-      line-height: 1.5;
-      transition: color 0.2s ease;
-    }
-    
-    .publication a:hover {
-      color: var(--primary-dark);
-      text-decoration: underline;
-    }
-    
-    /* R Playground */
-    .playground-intro {
-      background: white;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      margin-bottom: 24px;
-    }
-    
-    .playground-intro p {
-      color: var(--text-secondary);
-      margin-bottom: 0;
-    }
-    
-    /* Side Projects */
-    .projects-note {
-      background: var(--bg-tertiary);
-      padding: 16px 20px;
-      border-radius: 8px;
-      border-left: 4px solid var(--accent);
-      margin-bottom: 32px;
-      font-size: 0.9375rem;
-      color: var(--text-secondary);
-    }
-    
-    .project-list {
-      display: grid;
-      gap: 16px;
-    }
-    
-    .project-item {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      font-size: 0.9375rem;
-    }
-    
-    .project-title {
-      font-weight: 600;
-      color: var(--primary);
-    }
-    
-    .project-title a {
-      color: var(--primary);
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-    
-    .project-title a:hover {
-      color: var(--primary-dark);
-    }
-    
-    .project-description {
-      color: var(--text-secondary);
-    }
-    
-    .project-description a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    
-    .project-description a:hover {
-      text-decoration: underline;
-    }
-    
-    /* Education & Interests */
-    .info-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 24px;
-    }
-    
-    .info-card {
-      background: white;
-      padding: 28px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-    }
-    
-    .info-card h3 {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 20px;
-      color: var(--text-primary);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    
-    .info-card h3 i {
-      color: var(--accent);
-    }
-    
-    .education-item {
-      margin-bottom: 16px;
-    }
-    
-    .education-item:last-child {
-      margin-bottom: 0;
-    }
-    
-    .degree {
-      font-weight: 600;
-      color: var(--text-primary);
-      margin-bottom: 4px;
-    }
-    
-    .institution {
-      color: var(--text-secondary);
-      font-size: 0.9375rem;
-      margin-bottom: 2px;
-    }
-    
-    .education-period {
-      color: var(--text-secondary);
-      font-size: 0.875rem;
-    }
-    
-    .interests-list {
-      list-style: none;
-    }
-    
-    .interests-list li {
-      padding: 10px 0;
-      color: var(--text-primary);
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    
-    .interests-list i {
-      color: var(--accent);
-      width: 20px;
-    }
-    
-    /* Footer */
-    footer {
-      background: var(--text-primary);
-      color: white;
-      padding: 40px 0;
-      text-align: center;
-    }
-    
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    
-    footer a:hover {
-      text-decoration: underline;
-    }
-    
-    /* Responsive */
+      --primary: #2563eb; --primary-dark: #1e40af; --accent: #06b6d4;
+      --text-primary: #1e293b; --text-secondary: #64748b;
+      --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-tertiary: #f1f5f9;
+      --border: #e2e8f0; --gradient: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+    }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--text-primary); line-height: 1.6; background: var(--bg-primary); -webkit-font-smoothing: antialiased; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+    .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--gradient); color: white; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h60v60H0z" fill="none"/><path d="M30 0v60M0 30h60" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>'); opacity: 0.3; }
+    .hero-content { text-align: center; position: relative; z-index: 1; }
+    .profile-image-wrapper { width: 180px; height: 180px; margin: 0 auto 32px; position: relative; border-radius: 50%; overflow: hidden; border: 4px solid rgba(255,255,255,0.2); transition: transform 0.3s ease, border-color 0.3s ease; }
+    .profile-image-wrapper:hover { transform: scale(1.05); border-color: rgba(255,255,255,0.4); }
+    .profile-image { width: 100%; height: 100%; object-fit: cover; transition: filter 0.3s ease; }
+    .profile-image-wrapper:hover .profile-image { filter: brightness(1.1); }
+    .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 16px; letter-spacing: -0.02em; }
+    .hero-tagline { font-size: 1.5rem; font-weight: 400; margin-bottom: 32px; opacity: 0.95; }
+    .contact-links { display: flex; gap: 24px; justify-content: center; margin-top: 32px; }
+    .contact-links a { color: white; text-decoration: none; font-size: 1.25rem; transition: transform 0.2s ease, opacity 0.2s ease; }
+    .contact-links a:hover { transform: translateY(-3px); opacity: 0.8; }
+    .scroll-indicator { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); animation: bounce 2s infinite; }
+    @keyframes bounce { 0%,20%,50%,80%,100% { transform: translateX(-50%) translateY(0); } 40% { transform: translateX(-50%) translateY(-10px); } 60% { transform: translateX(-50%) translateY(-5px); } }
+    section { padding: 80px 0; }
+    section:nth-child(even) { background: var(--bg-secondary); }
+    .section-header { margin-bottom: 48px; }
+    .section-title { font-size: 2rem; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+    .section-title i { background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .section-subtitle { color: var(--text-secondary); font-size: 1.125rem; }
+    .about-content p { margin-bottom: 20px; font-size: 1.0625rem; color: var(--text-primary); }
+    .about-content p:last-child { margin-bottom: 0; }
+    .quick-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 40px; }
+    .fact-card { background: white; padding: 24px; border-radius: 12px; border: 1px solid var(--border); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .fact-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+    .fact-icon { width: 40px; height: 40px; border-radius: 8px; background: var(--gradient); display: flex; align-items: center; justify-content: center; margin-bottom: 12px; color: white; }
+    .fact-label { font-size: 0.875rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+    .fact-value { font-size: 1.25rem; font-weight: 600; color: var(--text-primary); }
+    .timeline { position: relative; padding-left: 32px; }
+    .timeline::before { content: ''; position: absolute; left: 0; top: 8px; bottom: 8px; width: 2px; background: var(--gradient); }
+    .timeline-item { position: relative; margin-bottom: 40px; }
+    .timeline-item:last-child { margin-bottom: 0; }
+    .timeline-marker { position: absolute; left: -38px; top: 8px; width: 14px; height: 14px; border-radius: 50%; background: white; border: 3px solid var(--primary); }
+    .timeline-content { background: white; padding: 24px; border-radius: 12px; border: 1px solid var(--border); transition: box-shadow 0.2s ease; }
+    .timeline-content:hover { box-shadow: 0 8px 16px rgba(0,0,0,0.06); }
+    .timeline-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 12px; }
+    .job-title { font-size: 1.25rem; font-weight: 600; color: var(--text-primary); }
+    .job-period { font-size: 0.875rem; color: var(--text-secondary); white-space: nowrap; }
+    .company { font-size: 1rem; color: var(--accent); font-weight: 500; margin-bottom: 12px; }
+    .job-description { color: var(--text-primary); line-height: 1.6; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .skill-item { background: white; padding: 20px; border-radius: 12px; border: 1px solid var(--border); }
+    .skill-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .skill-name { font-weight: 600; color: var(--text-primary); font-size: 1rem; }
+    .skill-level { font-size: 0.875rem; color: var(--text-secondary); }
+    .skill-bar { height: 6px; background: var(--bg-tertiary); border-radius: 3px; overflow: hidden; }
+    .skill-bar-fill { height: 100%; background: var(--gradient); border-radius: 3px; transition: width 1s ease; }
+    .publication { background: white; padding: 24px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 20px; transition: box-shadow 0.2s ease; }
+    .publication:hover { box-shadow: 0 8px 16px rgba(0,0,0,0.06); }
+    .publication:last-child { margin-bottom: 0; }
+    .publication a { color: var(--primary); text-decoration: none; font-weight: 500; line-height: 1.5; transition: color 0.2s ease; }
+    .publication a:hover { color: var(--primary-dark); text-decoration: underline; }
+    .playground-intro { background: white; padding: 24px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 24px; }
+    .playground-intro p { color: var(--text-secondary); margin-bottom: 0; }
+    .project-list { display: grid; gap: 16px; }
+    .project-item { background: white; padding: 20px; border-radius: 8px; border: 1px solid var(--border); font-size: 0.9375rem; }
+    .project-tag { display: inline-block; font-size: 0.75rem; font-weight: 500; padding: 2px 8px; border-radius: 4px; background: var(--bg-tertiary); color: var(--text-secondary); margin-right: 4px; margin-bottom: 8px; }
+    .project-title { font-weight: 600; display: block; margin-bottom: 4px; }
+    .project-title a { color: var(--primary); text-decoration: none; transition: color 0.2s ease; }
+    .project-title a:hover { color: var(--primary-dark); }
+    .project-description { color: var(--text-secondary); }
+    .project-description a { color: var(--accent); text-decoration: none; }
+    .project-description a:hover { text-decoration: underline; }
+    .info-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+    .info-card { background: white; padding: 28px; border-radius: 12px; border: 1px solid var(--border); }
+    .info-card h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 20px; color: var(--text-primary); display: flex; align-items: center; gap: 10px; }
+    .info-card h3 i { color: var(--accent); }
+    .education-item { margin-bottom: 16px; }
+    .education-item:last-child { margin-bottom: 0; }
+    .degree { font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+    .institution { color: var(--text-secondary); font-size: 0.9375rem; margin-bottom: 2px; }
+    .education-period { color: var(--text-secondary); font-size: 0.875rem; }
+    .interests-list { list-style: none; }
+    .interests-list li { padding: 10px 0; color: var(--text-primary); display: flex; align-items: center; gap: 12px; }
+    .interests-list i { color: var(--accent); width: 20px; }
+    footer { background: var(--text-primary); color: white; padding: 40px 0; text-align: center; }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
     @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2.25rem;
-      }
-      
-      .hero-tagline {
-        font-size: 1.25rem;
-      }
-      
-      section {
-        padding: 60px 0;
-      }
-      
-      .section-title {
-        font-size: 1.75rem;
-      }
-      
-      .timeline {
-        padding-left: 24px;
-      }
-      
-      .timeline-marker {
-        left: -30px;
-      }
-      
-      .quick-facts {
-        grid-template-columns: 1fr;
-      }
+      .hero h1 { font-size: 2.25rem; } .hero-tagline { font-size: 1.25rem; }
+      section { padding: 60px 0; } .section-title { font-size: 1.75rem; }
+      .timeline { padding-left: 24px; } .timeline-marker { left: -30px; }
+      .quick-facts { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 
 <body>
-  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
       <div class="profile-image-wrapper">
         <img src="assets/images/profile3.png" alt="Conrad MacCormick - Principal Data Scientist" class="profile-image">
       </div>
       <h1>Conrad MacCormick</h1>
-      <div class="hero-tagline">
-        Data <span class="typed"></span>
-      </div>
+      <div class="hero-tagline">Data <span class="typed"></span></div>
       <div class="contact-links">
-        <a href="https://nz.linkedin.com/in/conrad-maccormick-09699591" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/conrad-mac" target="_blank" rel="noopener" aria-label="GitHub Profile">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="http://stackoverflow.com/users/7359650/conrad-mac" target="_blank" rel="noopener" aria-label="Stack Overflow Profile">
-          <i class="fab fa-stack-overflow"></i>
-        </a>
-        <a href="mailto:conrad.maccormick@gmail.com" aria-label="Email Conrad MacCormick">
-          <i class="fa fa-envelope"></i>
-        </a>
+        <a href="https://nz.linkedin.com/in/conrad-maccormick-09699591" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/conrad-mac" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="http://stackoverflow.com/users/7359650/conrad-mac" target="_blank" rel="noopener" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+        <a href="mailto:conrad.maccormick@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
       </div>
     </div>
-    <div class="scroll-indicator">
-      <i class="fas fa-chevron-down" style="color: white; opacity: 0.7;"></i>
-    </div>
+    <div class="scroll-indicator"><i class="fas fa-chevron-down" style="color:white;opacity:0.7;"></i></div>
   </section>
 
-  <!-- About Section -->
   <section id="about">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-user"></i>
-          About
-        </h2>
+        <h2 class="section-title"><i class="fas fa-user"></i> About</h2>
       </div>
-      
       <div class="about-content">
-        <p>
-          I'm a dedicated data professional with over 13 years' experience in data science and statistical roles. During this time, I've honed my skills in leveraging data to drive actionable insights and solve complex problems.
-        </p>
-        <p>
-          I have strong time management and a solid work ethic, with a drive to produce high-quality work and meet deadlines. My customer focus comes from years working with diverse stakeholders — especially during my time as a data science consultant. I work to understand client needs and collaborate closely to create solutions that deliver real value.
-        </p>
-        <p>
-          Currently serving as Principal Data Scientist at <a href="https://www.nicholsonconsulting.co.nz/" target="_blank" rel="noopener">Nicholson Consulting</a>, I lead and oversee data projects, manage teams of 3–5 data scientists, and support two staff members as their people manager. I'm also an accredited Integrated Data Infrastructure (IDI) researcher with nearly 10 years' experience working with this powerful dataset.
-        </p>
+        <p>I'm a Principal Data Scientist with 15 years of experience in applied machine learning, statistical modelling and data product delivery. I build things that get used: production Shiny dashboards, geospatial visualisations and full-stack analytics apps.</p>
+        <p>My primary language is R, with working proficiency in Python including recent Snowflake/Snowpark work. I have strong SQL skills built over ten-plus years on large linked administrative datasets. I've also built personal projects using FastAPI and Next.js.</p>
+        <p>I am currently a Principal Data Scientist at <a href="https://www.nicholsonconsulting.co.nz/" target="_blank" rel="noopener">Nicholson Consulting</a>, where I lead project teams, advise clients and coach analysts across all career stages. Most of my domain experience is in the social sector, with cross-domain exposure including energy and insurance analytics.</p>
       </div>
-      
       <div class="quick-facts">
         <div class="fact-card">
-          <div class="fact-icon">
-            <i class="fas fa-briefcase"></i>
-          </div>
+          <div class="fact-icon"><i class="fas fa-briefcase"></i></div>
           <div class="fact-label">Experience</div>
-          <div class="fact-value">13+ Years</div>
+          <div class="fact-value">15+ Years</div>
         </div>
         <div class="fact-card">
-          <div class="fact-icon">
-            <i class="fas fa-database"></i>
-          </div>
-          <div class="fact-label">IDI Research</div>
-          <div class="fact-value">10 Years</div>
+          <div class="fact-icon"><i class="fas fa-cube"></i></div>
+          <div class="fact-label">Data Products</div>
+          <div class="fact-value">Production</div>
         </div>
         <div class="fact-card">
-          <div class="fact-icon">
-            <i class="fas fa-users"></i>
-          </div>
+          <div class="fact-icon"><i class="fas fa-users"></i></div>
           <div class="fact-label">Team Leadership</div>
           <div class="fact-value">3+ Years</div>
         </div>
@@ -731,16 +206,11 @@
     </div>
   </section>
 
-  <!-- Experience Section -->
   <section id="experience">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-briefcase"></i>
-          Experience
-        </h2>
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
       </div>
-      
       <div class="timeline">
         <article class="timeline-item">
           <div class="timeline-marker"></div>
@@ -750,12 +220,9 @@
               <span class="job-period">November 2021 – Present</span>
             </div>
             <div class="company">Nicholson Consulting</div>
-            <p class="job-description">
-              Leading data and analytical projects in close collaboration with the CEO and other Principal Data Scientists. Typically manage project teams of 3–5 data scientists, whilst also serving as people manager for two staff members. Use technical expertise to support the team in improving their proficiency across a wide range of analytical tools, enabling them to generate valuable insights for diverse audiences, including non-technical stakeholders.
-            </p>
+            <p class="job-description">Lead data science and analytics projects end-to-end: from RFP and scoping through to model deployment, dashboard delivery and capability transfer. Manage project teams of three to five data scientists and three direct reports. Key projects include a mixed-effects model and survival analysis for national driver licence investment prioritisation; a microsimulation model for te reo Māori revitalisation policy (He Ara Poutama); production Shiny dashboards for EECA and Te Rourou – One Aotearoa Foundation; and Pacific population health indicator development using linked administrative data.</p>
           </div>
         </article>
-        
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -764,12 +231,9 @@
               <span class="job-period">September 2019 – November 2021</span>
             </div>
             <div class="company">Nicholson Consulting</div>
-            <p class="job-description">
-              Took a lead role collaborating with clients to deliver analytical projects — primarily using the Integrated Data Infrastructure (IDI).
-            </p>
+            <p class="job-description">Led client-facing analytical projects using the IDI. Early development of He Ara Poutama and a national birth cohort study on criminal justice system interactions among young people with neurodevelopmental conditions, resulting in two peer-reviewed publications.</p>
           </div>
         </article>
-        
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -778,12 +242,9 @@
               <span class="job-period">January 2018 – September 2019</span>
             </div>
             <div class="company">Electricity Authority</div>
-            <p class="job-description">
-              Analysed and built models using New Zealand electricity data. Gained experience with complex optimisation modelling techniques.
-            </p>
+            <p class="job-description">Analysed New Zealand electricity market data and built optimisation models including work on GEM and DOASA.</p>
           </div>
         </article>
-        
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -791,41 +252,10 @@
               <h3 class="job-title">Senior Analyst</h3>
               <span class="job-period">April 2016 – December 2017</span>
             </div>
-            <div class="company">Social Investment Agency/Unit</div>
-            <p class="job-description">
-              Seconded as Senior Analyst following the transformation of the Social Sector Investment Change Programme into the Social Investment Unit (April 2016), and subsequently the Social Investment Agency (July 2017). Used Statistics NZ's Integrated Data Infrastructure (IDI) to explore and understand the effectiveness of government investment in social services.
-            </p>
+            <div class="company">Social Investment Agency</div>
+            <p class="job-description">Used the IDI to explore the effectiveness of government investment in social services. Co-authored a published report on wellbeing impacts of social housing policy.</p>
           </div>
         </article>
-        
-        <article class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="job-title">Analyst</h3>
-              <span class="job-period">October 2015 – March 2016</span>
-            </div>
-            <div class="company">Social Sector Investment Change Programme</div>
-            <p class="job-description">
-              Coordinated and helped project-manage a software proof-of-concept, including stakeholder engagement with NGOs and various government agencies.
-            </p>
-          </div>
-        </article>
-        
-        <article class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="job-title">Analyst</h3>
-              <span class="job-period">September 2015</span>
-            </div>
-            <div class="company">New Zealand Treasury</div>
-            <p class="job-description">
-              Seconded to Treasury's Analytics and Insights team to analyse and understand the life pathways of young New Zealanders using Statistics New Zealand's Integrated Data Infrastructure (IDI).
-            </p>
-          </div>
-        </article>
-        
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -834,12 +264,9 @@
               <span class="job-period">January 2015 – December 2017</span>
             </div>
             <div class="company">Ministry of Social Development</div>
-            <p class="job-description">
-              Responsible for regular forecasting of Vote Social Development appropriations and cost modelling of benefit-related policies.
-            </p>
+            <p class="job-description">Regular forecasting of Vote Social Development appropriations and cost modelling of benefit-related policies. Secondments to Treasury and the Social Investment Agency.</p>
           </div>
         </article>
-        
         <article class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -848,216 +275,128 @@
               <span class="job-period">October 2011 – December 2014</span>
             </div>
             <div class="company">Statistics New Zealand</div>
-            <p class="job-description">
-              Worked in the Statistical Methods unit, utilising expertise across a variety of methodological areas.
-            </p>
+            <p class="job-description">Statistical Methods unit: seasonal adjustment, sample survey design, probabilistic record linkage and statistical data confidentiality.</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
   <section id="skills">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-code"></i>
-          Skills & Proficiency
-        </h2>
+        <h2 class="section-title"><i class="fas fa-code"></i> Skills & Proficiency</h2>
       </div>
-      
       <div class="skills-grid">
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">R & Shiny</span>
-            <span class="skill-level">Expert</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="90"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">R & Shiny</span><span class="skill-level">Expert</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="90"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">SAS</span>
-            <span class="skill-level">Expert</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="90"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">SQL</span><span class="skill-level">Advanced</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="85"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Statistical Analysis</span>
-            <span class="skill-level">Advanced</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="80"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">Statistical Modelling & ML</span><span class="skill-level">Advanced</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="85"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Project Management</span>
-            <span class="skill-level">Advanced</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="80"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">Python</span><span class="skill-level">Intermediate</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="60"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">SQL</span>
-            <span class="skill-level">Advanced</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="80"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">Snowflake / Snowpark</span><span class="skill-level">Working knowledge</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="50"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">JavaScript & HTML</span>
-            <span class="skill-level">Proficient</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="70"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">Databricks</span><span class="skill-level">Working knowledge</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="50"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Git</span>
-            <span class="skill-level">Proficient</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="60"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">Geospatial (sf, leaflet)</span><span class="skill-level">Proficient</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="70"></div></div>
         </div>
-        
         <div class="skill-item">
-          <div class="skill-header">
-            <span class="skill-name">Python</span>
-            <span class="skill-level">Intermediate</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-bar-fill" data-level="50"></div>
-          </div>
+          <div class="skill-header"><span class="skill-name">JavaScript / HTML</span><span class="skill-level">Proficient</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span class="skill-name">Git</span><span class="skill-level">Proficient</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-level="65"></div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Education & Interests -->
   <section id="education">
     <div class="container">
       <div class="info-cards">
         <article class="info-card">
-          <h3>
-            <i class="fas fa-graduation-cap"></i>
-            Education
-          </h3>
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
           <div class="education-item">
             <div class="degree">BSc in Geography</div>
             <div class="institution">Victoria University of Wellington</div>
             <div class="education-period">2007 – 2010</div>
           </div>
         </article>
-        
         <article class="info-card">
-          <h3>
-            <i class="fas fa-heart"></i>
-            Interests
-          </h3>
+          <h3><i class="fas fa-heart"></i> Interests</h3>
           <ul class="interests-list">
-            <li><i class="fas fa-child"></i> Being with my son</li>
-            <li><i class="fas fa-guitar"></i> Playing guitar</li>
+            <li><i class="fas fa-music"></i> Playing music (guitar and piano)</li>
             <li><i class="fas fa-book"></i> Reading</li>
             <li><i class="fas fa-terminal"></i> Programming</li>
-            <li><i class="fas fa-chart-bar"></i> Data visualisation</li>
+            <li><i class="fas fa-map"></i> Maps and geospatial data</li>
           </ul>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Publications Section -->
   <section id="publications">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-book"></i>
-          Published Work
-        </h2>
+        <h2 class="section-title"><i class="fas fa-book"></i> Published Work</h2>
       </div>
-      
       <article class="publication">
-        <a href="https://journals.sagepub.com/doi/full/10.1177/10870547231177469" target="_blank" rel="noopener">
-          Francesca Anns, Stephanie D'Souza, Conrad MacCormick, Brigit Mirfin-Veitch, Betony Clasby, Nathan Hughes, Warren Forster, Eden Tuisaula and Nicholas Bowden (2023). <strong>Risk of Criminal Justice System Interactions in Young Adults with Attention-Deficit/Hyperactivity Disorder: Findings From a National Birth Cohort</strong>
-        </a>
+        <a href="https://journals.sagepub.com/doi/full/10.1177/10870547231177469" target="_blank" rel="noopener">Anns et al. (2023). <strong>Risk of Criminal Justice System Interactions in Young Adults with ADHD: Findings From a National Birth Cohort.</strong> Journal of Attention Disorders.</a>
       </article>
-      
       <article class="publication">
-        <a href="https://journals.sagepub.com/doi/full/10.1177/13623613211065541" target="_blank" rel="noopener">
-          Nicholas Bowden, Barry Milne, Richard Audas, Betony Clasby, Joanne Dacombe, Warren Forster, Jesse Kokaua, Sheree Gibb, Nathan Hughes, Conrad MacCormick, Kirsten Smiler, Barry Taylor and Brigit Mirfin-Veitch (2021). <strong>Criminal justice system interactions amongst young adults with and without autism: A national birth cohort study in New Zealand</strong>
-        </a>
+        <a href="https://journals.sagepub.com/doi/full/10.1177/13623613211065541" target="_blank" rel="noopener">Bowden et al. (2022). <strong>Criminal justice system interactions among young adults with and without autism: A national birth cohort study in New Zealand.</strong> Autism.</a>
       </article>
-      
       <article class="publication">
-        <a href="https://sia.govt.nz/publications/reports/" target="_blank" rel="noopener">
-          Simon Anastasiadis, Nafees Anwar, Vinay Benny, Wen Lee, Conrad MacCormick, Conal Smith, Ben Vandenbroucke (2018). <strong>Measuring the wellbeing impacts of public policy: social housing</strong>
-        </a>
+        <a href="https://sia.govt.nz/publications/reports/" target="_blank" rel="noopener">Anastasiadis et al. (2018). <strong>Measuring the wellbeing impacts of public policy: social housing.</strong> Social Investment Agency.</a>
       </article>
-      
       <article class="publication">
-        <a href="https://www.treasury.govt.nz/publications/ap/characteristics-children-greater-risk-poor-outcomes-adults-ap-16-01" target="_blank" rel="noopener">
-          Christopher Ball, Sarah Crichton, Robert Templeton and Sarah Tumen, Rissa Ota and Conrad MacCormick (2016). <strong>Characteristics of Children at Greater Risk of Poor Outcomes as Adults</strong>
-        </a>
+        <a href="https://www.treasury.govt.nz/publications/ap/characteristics-children-greater-risk-poor-outcomes-adults-ap-16-01" target="_blank" rel="noopener">Ball et al. (2016). <strong>Characteristics of Children at Greater Risk of Poor Outcomes as Adults.</strong> New Zealand Treasury.</a>
       </article>
-      
       <article class="publication">
-        <a href="https://thehub.sia.govt.nz/resources/comparing-revisions-in-time-series-data-a-report-on-seasonally-adjusted-versus-trend-series" target="_blank" rel="noopener">
-          Buchanan, R and MacCormick, C (2014). <strong>Comparing revisions in time series data: A report on seasonally adjusted versus trend series</strong>
-        </a>
+        <a href="https://thehub.sia.govt.nz/resources/comparing-revisions-in-time-series-data-a-report-on-seasonally-adjusted-versus-trend-series" target="_blank" rel="noopener">Buchanan & MacCormick (2014). <strong>Comparing revisions in time series data: seasonally adjusted versus trend series.</strong> Stats NZ.</a>
       </article>
     </div>
   </section>
 
-  <!-- R Playground Section -->
   <section id="playground">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-laptop-code"></i>
-          R Playground
-        </h2>
+        <h2 class="section-title"><i class="fas fa-laptop-code"></i> R Playground</h2>
       </div>
-      
       <div class="playground-intro">
         <p>Try some basic R visualisation. This example creates a scatter plot showing the relationship between life expectancy and GDP per capita for selected countries in 2007. Feel free to modify it or write your own code.</p>
       </div>
-      
       <div data-datacamp-exercise data-lang="r">
-        <code data-type="pre-exercise-code">
-# Pre-loaded libraries
-        </code>
+        <code data-type="pre-exercise-code"># Pre-loaded libraries</code>
         <code data-type="sample-code">
 # Create a scatter plot with ggplot2
 library(ggplot2)
 library(gapminder)
 
-# Filter to 2007 data and select interesting countries
-countries <- c("New Zealand", "Australia", "United States", 
+countries <- c("New Zealand", "Australia", "United States",
                "China", "India", "Germany", "Brazil", "Japan")
 
-gap_2007 <- gapminder[gapminder$year == 2007 & 
+gap_2007 <- gapminder[gapminder$year == 2007 &
                       gapminder$country %in% countries, ]
 
-# Create the plot
-ggplot(gap_2007, aes(x = gdpPercap, y = lifeExp, 
+ggplot(gap_2007, aes(x = gdpPercap, y = lifeExp,
                      colour = country, size = pop)) +
   geom_point(alpha = 0.7) +
   scale_size(range = c(3, 15), guide = "none") +
@@ -1066,147 +405,82 @@ ggplot(gap_2007, aes(x = gdpPercap, y = lifeExp,
        x = "GDP per capita (log scale)",
        y = "Life expectancy (years)",
        colour = "Country") +
-  theme_minimal() +
-  theme(legend.position = "right",
-        plot.title = element_text(size = 14, face = "bold"))
+  theme_minimal()
         </code>
-        <code data-type="solution">
-        </code>
-        <code data-type="sct">
-        </code>
+        <code data-type="solution"></code>
+        <code data-type="sct"></code>
         <div data-type="hint"></div>
       </div>
     </div>
   </section>
 
-  <!-- Side Projects Section -->
   <section id="projects">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">
-          <i class="fas fa-code-branch"></i>
-          Side Projects
-        </h2>
+        <h2 class="section-title"><i class="fas fa-code-branch"></i> Projects</h2>
+        <p class="section-subtitle">Personal and side projects demonstrating geospatial, data app and visualisation work.</p>
       </div>
-      
-      <div class="projects-note">
-        The following are older personal projects from several years ago, maintained here for archival purposes.
-      </div>
-      
       <div class="project-list">
         <article class="project-item">
-          <span class="project-title">
-            <a href="https://conrad.shinyapps.io/vplyr/" target="_blank" rel="noopener">vplyr</a>
-          </span>
-          <span class="project-description">
-            — Uses R, <a href="https://shiny.rstudio.com/" target="_blank" rel="noopener">Shiny</a>, and <a href="https://www.talater.com/annyang/" target="_blank" rel="noopener">annyang</a> to analyse and visualise data using speech recognition (Chrome only). <a href="https://github.com/conrad-mac/vplyr" target="_blank" rel="noopener">View code</a>
-          </span>
+          <span class="project-tag">R</span><span class="project-tag">Shiny</span><span class="project-tag">Geospatial</span><span class="project-tag">Leaflet</span>
+          <span class="project-title"><a href="https://conrad.shinyapps.io/high-risk-intersections-nz/" target="_blank" rel="noopener">NZ High-Risk Intersections (2003–2012)</a></span>
+          <span class="project-description">Interactive geospatial visualisation of New Zealand's highest-risk road intersections, built with R, Shiny and Leaflet. <a href="https://github.com/conrad-mac" target="_blank" rel="noopener">View code</a></span>
         </article>
-        
         <article class="project-item">
-          <span class="project-title">
-            <a href="https://conrad-mac.github.io/japan-photo-diary" target="_blank" rel="noopener">Japan Photo Diary</a>
-          </span>
-          <span class="project-description">
-            — Uses the <a href="https://github.com/turban/Leaflet.Photo" target="_blank" rel="noopener">Leaflet.Photo</a> library to showcase photos from our 2017 holiday in Japan.
-          </span>
+          <span class="project-tag">R</span><span class="project-tag">Shiny</span><span class="project-tag">Speech recognition</span>
+          <span class="project-title"><a href="https://conrad.shinyapps.io/vplyr/" target="_blank" rel="noopener">vplyr</a></span>
+          <span class="project-description">Voice-controlled data analysis and visualisation in R and Shiny using the annyang speech recognition library. <a href="https://github.com/conrad-mac/vplyr" target="_blank" rel="noopener">View code</a></span>
         </article>
-        
         <article class="project-item">
-          <span class="project-title">
-            <a href="https://conrad.shinyapps.io/high-risk-intersections-nz/" target="_blank" rel="noopener">NZ's Highest Risk Intersections (2003–2012)</a>
-          </span>
-          <span class="project-description">
-            — Interactive visualisation of New Zealand's highest-risk intersections using R, <a href="https://shiny.rstudio.com/" target="_blank" rel="noopener">Shiny</a>, and <a href="https://rstudio.github.io/leaflet/" target="_blank" rel="noopener">Leaflet</a>.
-          </span>
+          <span class="project-tag">Leaflet.js</span><span class="project-tag">Geospatial</span>
+          <span class="project-title"><a href="https://conrad-mac.github.io/japan-photo-diary" target="_blank" rel="noopener">Japan Photo Diary</a></span>
+          <span class="project-description">Geotagged photo diary using Leaflet.Photo to place travel photos on an interactive map.</span>
         </article>
-        
         <article class="project-item">
-          <span class="project-title">
-            <a href="https://conrad-mac.github.io/d3/cricket-grounds/" target="_blank" rel="noopener">Cricket Grounds Around the World</a>
-          </span>
-          <span class="project-description">
-            — Uses <a href="https://d3js.org" target="_blank" rel="noopener">D3.js</a> to draw the shapes and sizes of cricket grounds worldwide. <a href="https://github.com/conrad-mac/d3/tree/gh-pages/cricket-grounds" target="_blank" rel="noopener">View code</a>
-          </span>
+          <span class="project-tag">D3.js</span><span class="project-tag">Data visualisation</span>
+          <span class="project-title"><a href="https://conrad-mac.github.io/d3/cricket-grounds/" target="_blank" rel="noopener">Cricket Grounds Around the World</a></span>
+          <span class="project-description">D3.js visualisation of cricket ground shapes and dimensions worldwide. <a href="https://github.com/conrad-mac/d3/tree/gh-pages/cricket-grounds" target="_blank" rel="noopener">View code</a></span>
         </article>
-        
         <article class="project-item">
-          <span class="project-title">
-            <a href="https://wrug.shinyapps.io/questionnaire/" target="_blank" rel="noopener">Wellington R Users Group Community Questionnaire</a>
-          </span>
-          <span class="project-description">
-            — Shiny app created to understand topics Wellington's R community wanted to learn about. <a href="https://wgtn-rug.github.io/questionnaire/wrug_responses_analysis.html" target="_blank" rel="noopener">View results</a>
-          </span>
+          <span class="project-tag">R</span><span class="project-tag">Shiny</span>
+          <span class="project-title"><a href="https://wrug.shinyapps.io/questionnaire/" target="_blank" rel="noopener">Wellington R Users Group Questionnaire</a></span>
+          <span class="project-description">Shiny app to survey and visualise the Wellington R community's topic interests. <a href="https://wgtn-rug.github.io/questionnaire/wrug_responses_analysis.html" target="_blank" rel="noopener">View results</a></span>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <div class="container">
-    </div>
+    <div class="container"></div>
   </footer>
 
-  <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  
   <script>
-    // Typed.js for animated tagline
     document.addEventListener('DOMContentLoaded', function() {
       new Typed('.typed', {
-        strings: [
-          'Scientist',
-          'Leader',
-          'Analyst',
-          'Problem Solver',
-          'Communicator',
-          'Researcher'
-        ],
-        typeSpeed: 80,
-        backSpeed: 50,
-        backDelay: 2000,
-        loop: true
+        strings: ['Scientist', 'Engineer', 'Analyst', 'Problem Solver', 'Builder', 'Communicator'],
+        typeSpeed: 80, backSpeed: 50, backDelay: 2000, loop: true
       });
-      
-      // Animate skill bars on scroll
-      const observerOptions = {
-        threshold: 0.5,
-        rootMargin: '0px'
-      };
-      
       const observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            const skillBars = entry.target.querySelectorAll('.skill-bar-fill');
-            skillBars.forEach(bar => {
-              const level = bar.getAttribute('data-level');
-              bar.style.width = level + '%';
+            entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+              bar.style.width = bar.getAttribute('data-level') + '%';
             });
             observer.unobserve(entry.target);
           }
         });
-      }, observerOptions);
-      
+      }, { threshold: 0.5 });
       const skillsSection = document.querySelector('#skills');
-      if (skillsSection) {
-        observer.observe(skillsSection);
-      }
-      
-      // Smooth scrolling
+      if (skillsSection) observer.observe(skillsSection);
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+        anchor.addEventListener('click', function(e) {
           const href = this.getAttribute('href');
           if (href !== '#' && href.length > 1) {
             e.preventDefault();
             const target = document.querySelector(href);
-            if (target) {
-              target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              });
-            }
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         });
       });
